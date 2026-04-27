@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#menu li {
+    display: inline-block;
+    border: 2px solid #ddd;
+    width: 60px;
+    height: 100px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+}
+
+#menu li.red {
+    background: rgb(255, 110, 110);
+}
+
+#menu li.green {
+    background: rgb(161, 255, 160);
+}
+
+#menu li.blue {
+    background: rgb(84, 201, 255);
+}
+
+#menu li.pink {
+    background: pink;
+}
+
+#menu li.purple {
+    background: rgb(176, 120, 255);
+}
